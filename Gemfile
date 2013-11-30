@@ -8,4 +8,4 @@ gem "middleman", "~>3.2.0"
 gem "middleman-livereload", "~> 3.1.0"
 
 gem 'haml'
-gem 'bootstrap-sass', require: false
+gem 'bootstrap-sass', '~> 3', require: false
