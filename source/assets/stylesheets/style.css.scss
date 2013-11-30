@@ -1,0 +1,71 @@
+// Google Webfonts
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed|Amatic+SC:400,700);
+
+// Fonts
+// -------------------------
+$font-family-amatic-sc:        "Amatic SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-cabin-condensed:  "Cabin Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Brand colors
+// -------------------------
+$brand-primary:         #f86c74;
+$brand-alternate:        #ad9177;
+$brand-text-color:      #2f2f30;
+$link-color:            $brand-primary;
+
+// Scaffolding
+// -------------------------
+$text-color:            $brand-text-color;
+
+// Typography
+// -------------------------
+$font-size-base:  15px !default;
+
+// Navbar
+// -------------------------
+$navbar-border-radius: 0;
+
+// Buttons
+// -------------------------
+$btn-default-color: #fff;
+$btn-default-bg: #41afd8 !default;
+
+// Boostrap
+// - import here so we have access to all the variables and mixins and
+// - so that the variables get set to overwrite the bootstrap defaults
+@import "bootstrap";
+
+// Headings
+// -------------------------
+h1, h2 {
+  font-family: $font-family-amatic-sc;
+  font-weight: 700;
+}
+h1 {
+  font-size: 45px;
+  line-height: 40px;
+  color: $brand-primary;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 35px;
+  color: $brand-alternate;
+}
+
+h3 {
+  font-family: $font-family-cabin-condensed;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 23px;
+  color: $brand-alternate;
+}
+
+// Buttons
+// -------------------------
+.btn-whatscooking {
+  @include button-variant(#fff, #41afd8, #41afd8);
+  &:hover {
+    background-color: #237aaf;
+  }
+}
