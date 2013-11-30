@@ -36,7 +36,7 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -45,11 +45,10 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
+set :assets_dir,  'assets'
+set :css_dir,     "#{assets_dir}/stylesheets"
+set :js_dir,      "#{assets_dir}/javascripts"
+set :images_dir,  "#{assets_dir}/images"
 
 # Build-specific configuration
 configure :build do
