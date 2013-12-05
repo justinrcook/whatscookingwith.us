@@ -1,0 +1,31 @@
+// Fonts
+// -------------------------
+$font-family-amatic-sc:        "Amatic SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-cabin-condensed:  "Cabin Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Brand colors
+// -------------------------
+$brand-primary:         #f86c74;
+$brand-alternate:       #ad9177;
+$brand-text-color:      #2f2f30;
+$link-color:            $brand-primary;
+
+// Scaffolding
+// -------------------------
+$text-color:            $brand-text-color;
+
+// Typography
+// -------------------------
+$font-size-base:  15px !default;
+
+// Navbar
+// -------------------------
+$navbar-height:                   70px !default;
+$navbar-border-radius:            0;
+$navbar-default-link-color:       $brand-alternate;
+$navbar-default-link-hover-color: darken($navbar-default-link-color, 15%) !default;
+
+// Buttons
+// -------------------------
+$btn-default-color: #fff;
+$btn-default-bg: #41afd8 !default;

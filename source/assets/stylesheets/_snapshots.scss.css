@@ -1,0 +1,15 @@
+// Snapshots
+// -------------------------
+.snapshots {
+  @extend .row;
+  padding-bottom: $line-height-computed;
+
+  .snap {
+    @extend .col-md-3;
+
+    img {
+      @extend .img-circle;
+      @extend .img-responsive;
+    }
+  }
+}
