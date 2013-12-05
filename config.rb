@@ -50,8 +50,19 @@ set :css_dir,     "#{assets_dir}/stylesheets"
 set :js_dir,      "#{assets_dir}/javascripts"
 set :images_dir,  "#{assets_dir}/images"
 
+# Development Settings
+configure :development do
+  activate :google_analytics do |ga|
+    ga.tracking_id = false
+  end
+end
+
 # Build-specific configuration
 configure :build do
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-46222806-1'
+  end
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
