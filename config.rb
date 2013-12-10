@@ -45,10 +45,10 @@ activate :livereload
 #   end
 # end
 
-set :assets_dir,  'assets'
-set :css_dir,     "#{assets_dir}/stylesheets"
-set :js_dir,      "#{assets_dir}/javascripts"
-set :images_dir,  "#{assets_dir}/images"
+#set :assets_dir,  'assets'
+set :css_dir,     "stylesheets"
+set :js_dir,      "javascripts"
+set :images_dir,  "images"
 
 # Development Settings
 configure :development do
@@ -64,10 +64,14 @@ configure :build do
   end
 
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
+
+  # Use assets cdn to host images, javascript and stylesheets
+  activate :asset_host
+  set :asset_host, '//assets.whatscookingwith.us/'
 
   # Enable cache buster
   # activate :asset_hash
