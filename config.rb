@@ -45,10 +45,9 @@ activate :livereload
 #   end
 # end
 
-#set :assets_dir,  'assets'
-set :css_dir,     "stylesheets"
-set :js_dir,      "javascripts"
-set :images_dir,  "images"
+set :css_dir,     'stylesheets'
+set :js_dir,      'javascripts'
+set :images_dir,  'images'
 
 # Development Settings
 configure :development do
