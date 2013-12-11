@@ -3,7 +3,7 @@
   [
     {
      "path": ".",
-     "folder_exclude_patterns": [".bundle"],
+     "folder_exclude_patterns": [".bundle", ".sass-cache"],
      "file_exclude_patterns": ["*.lock", "*.sublime-workspace"]
     }
   ]
