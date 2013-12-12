@@ -18,6 +18,12 @@ $text-color:            $brand-text-color;
 // -------------------------
 $font-size-base:  15px !default;
 
+// Iconography
+// -------------------------
+// Turn off bootstrap-sass font helper - https://github.com/thomas-mcdonald/bootstrap-sass/pull/473
+$bootstrap-sass-asset-helper: false;
+$icon-font-path: '/assets/fonts/bootstrap/';
+
 // Navbar
 // -------------------------
 $navbar-height:                   70px !default;
