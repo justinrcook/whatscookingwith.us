@@ -16,3 +16,8 @@ group :development do
   gem 'capistrano-bundler', github: 'capistrano/bundler'
   gem 'capistrano-rbenv', github: 'capistrano/rbenv'
 end
+
+group :production do
+  gem 'execjs'
+  gem 'therubyracer'
+end
