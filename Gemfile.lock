@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/capistrano/bundler.git
-  revision: f1bd2077dc9677c718462172fb6b619075656993
+  revision: f1b70e2f6ff565f377eee851a597ff89fe9d9c4d
   specs:
     capistrano-bundler (1.1.1)
       capistrano (~> 3.0)
