@@ -21,3 +21,8 @@ source/assets/images/
 
 # Ignore Sublime's workspace
 *.sublime-workspace
+
+# Ignore all deployment config and settings
+/config/deploy.rb
+/config/deploy/
+/lib/capistrano/
