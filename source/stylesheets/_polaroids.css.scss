@@ -1,23 +1,74 @@
 // Polaroid Images
+// cribbed from: http://zurb.com/playground/css3-polaroids
 // -------------------------
-.polaroid {
-  margin: 0 0 27px 30px;
-  padding: 10px 10px 15px;
-  text-align: center;
-  @include rotate(-2deg);
-  @include box-shadow(0 3px 6px rgba(0,0,0,.25));
+ul.polaroids {
+  li {
+    display: inline;
+    padding-left: 0;
 
-  img {
-    margin-bottom: 12px;
-  }
+    &:nth-child(even) a {
+      @include rotate(2deg);
+    }
+    &:nth-child(3n) a {
+      position: relative;
+      top: -5px;
+      @include transition(none);
+    }
+    &:nth-child(5n) a {
+      position: relative;
+      right: 5px;
+      @include rotate(5deg);
+    }
+    &:nth-child(8n) a {
+      position: relative;
+      right: 5px;
+      top: 8px;
+    }
+    &:nth-child(11n) a {
+      position: relative;
+      left: -5px;
+      top: 3px;
+    }
+    &.messy a {
+      margin-top: -400px;
+      position: relative;
+      left: 160px;
+    }
 
-  &:after {
-    content: attr(title);
-  }
+    .polaroid {
+      background: #fff;
+      display: inline;
+      float: left;
+      margin: 0 0 27px 30px;
+      width: auto;
+      padding: 10px 10px 15px;
+      text-align: center;
+      @include rotate(-2deg);
+      @include box-shadow(0 3px 6px rgba(0,0,0,.25));
 
-  &:hover {
-    @include transition(.15s linear);
-    @include scale(1.1);
-    @include box-shadow(0 3px 6px rgba(0,0,0,.5));
+      &:hover {
+        @include transition(.15s linear);
+        @include box-shadow(0 3px 6px rgba(0, 0, 0, 0.5));
+        @include scale(1.25);
+        position: relative;
+        z-index: 5;
+      }
+
+      &:after {
+        content: attr(title);
+      }
+
+      img {
+        display: block;
+        //width: 250px;
+        margin-bottom: 12px;
+      }
+    } // end .polaroid
+  } // end li
+} // end ul.polaroids
+
+@media screen and (max-width: 768px) {
+  ul.polaroids li a {
+    margin-left: 0;
   }
 }
