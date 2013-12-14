@@ -67,7 +67,7 @@ ul.polaroids {
   } // end li
 } // end ul.polaroids
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $screen-sm-min) {
   ul.polaroids li a {
     margin-left: 0;
   }
