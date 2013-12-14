@@ -2,11 +2,5 @@
 // -------------------------
 section {
   border-top: 1px solid #eee;
-  padding-top: ($navbar-height * 1.2);
   padding-bottom: $line-height-computed;
-
-  // Remove the large padding from the first section
-  &:first-child {
-    padding-top: $line-height-computed;
-  }
 }
