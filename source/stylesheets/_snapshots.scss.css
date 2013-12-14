@@ -10,6 +10,13 @@
     img {
       @extend .img-circle;
       @extend .img-responsive;
+
+      &:hover {
+        @include transition(.15s linear);
+        @include scale(1.5);
+        position: relative;
+        z-index: 5;
+      }
     }
   }
 }
