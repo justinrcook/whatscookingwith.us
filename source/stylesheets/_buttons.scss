@@ -1,0 +1,8 @@
+// Buttons
+// -------------------------
+.btn-whatscooking {
+  @include button-variant(#fff, #41afd8, #41afd8);
+  &:hover {
+    background-color: #237aaf;
+  }
+}

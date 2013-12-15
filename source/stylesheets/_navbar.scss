@@ -1,0 +1,35 @@
+// Navbar
+// -------------------------
+body { padding-top: $navbar-height; } // Padding to keep the body content from being underneath the navbar
+nav {
+
+  .navbar-brand {
+      padding-top: 14px;
+
+    img {
+      @extend .img-responsive;
+    }
+  }
+
+  li {
+    a {
+      font-family: $font-family-amatic-sc;
+      font-weight: 700;
+      font-size: 35px;
+    }
+  }
+}
+
+@include responsive-navbar(320px,   230px,  35px);
+@include responsive-navbar(340px,   240px,  35px);
+@include responsive-navbar(360px,   260px,  35px);
+@include responsive-navbar(380px,   280px,  35px);
+@include responsive-navbar(400px,   300px,  35px);
+@include responsive-navbar(420px,   320px,  35px);
+@include responsive-navbar(440px,   340px,  35px);
+@include responsive-navbar(460px,   360px,  35px);
+@include responsive-navbar(500px,   380px,  35px);
+@include responsive-navbar(520px,   100%,   35px);
+@include responsive-navbar(900px,   250px,  26px);
+@include responsive-navbar(992px,   360px,  35px);
+@include responsive-navbar(1200px,  100%,   35px);

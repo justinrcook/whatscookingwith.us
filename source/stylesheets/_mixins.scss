@@ -1,0 +1,14 @@
+// Mixins
+// -------------------------
+@mixin responsive-navbar($min-width, $image-width, $font-size) {
+  @media (min-width: $min-width) {
+    nav {
+      .navbar-brand {
+        img { width: $image-width; }
+      }
+      li {
+        a { font-size: $font-size; }
+      }
+    }
+  }
+}
