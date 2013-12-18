@@ -18,47 +18,8 @@
     = stylesheet_link_tag 'style'
 
   %body
-
-    / Navbar
-    / ==================================================
-    %nav.navbar.navbar-default.navbar-fixed-top{ role: "navigation" }
-      .container
-        .navbar-header
-          %button.navbar-toggle{ type: "button", data: { toggle: "collapse", target: ".navbar-collapse" } }
-            %i.icon-bar
-            %i.icon-bar
-            %i.icon-bar
-          = link_to '/', class: 'navbar-brand' do
-            = image_tag 'logo.png', alt: "What's Cooking with Us"
-        .collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li= link_to 'The Latest', '#latest'
-            %li= link_to 'He &amp; She', '#heandshe'
-            %li= link_to 'Details', '#deets'
-            %li= link_to 'Spapshots', '#snaps'
-            %li= link_to 'Contact Us', '#contact'
-
-    / Carousel
-    / ==================================================
-    #carousel.carousel.slide{ data: { ride: 'carousel' } }
-      / Indicators
-      %ol.carousel-indicators
-        %li.active{ data: { target: '`carousel', slide_to: 0 } }
-        %li{ data: { target: '`carousel', slide_to: 1 } }
-        %li{ data: { target: '`carousel', slide_to: 2 } }
-
-      .carousel-inner
-        .item.active= image_tag 'carousel/1.jpg', class: 'img-responsive', alt: ''
-        .item= image_tag 'carousel/2.jpg', class: 'img-responsive', alt: ''
-        .item= image_tag 'carousel/3.jpg', class: 'img-responsive', alt: ''
-
-      = link_to '#carousel', class: 'left carousel-control', data: { slide: 'prev' } do
-        %span.glyphicon.glyphicon-chevron-left
-      = link_to '#carousel', class: 'right carousel-control', data: { slide: 'next' } do
-        %span.glyphicon.glyphicon-chevron-right
-
-    .container
-      = yield
+    = partial 'layouts/partials/navbar'
+    = yield
 
     %footer.container
       %p Footer stuff

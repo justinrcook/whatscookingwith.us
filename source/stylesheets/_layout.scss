@@ -1,6 +1,65 @@
 // Sections
 // -------------------------
-section {
-  border-top: 1px solid #eee;
+.content {
+  @extend .container;
+  @extend .text-center;
   padding-bottom: $line-height-computed;
-}
+
+  &#latest,
+  &#snapshots {
+    border-bottom: 1px solid #eee;
+  } //#latest & #snaps
+
+  &#heandshe {
+    section {
+      @extend .row;
+
+      .he,
+      .she {
+        @extend .text-left;
+        @extend .col-md-6;
+        padding-left:  $grid-gutter-width;
+        padding-right: $grid-gutter-width;
+
+        h2 {
+          @extend .text-center;
+        }
+      } //.he & .she
+
+      .he {
+        h2 {
+          background: image_url('spatula.png') no-repeat 25% 50%;
+        }
+      } //.he
+
+      .she {
+      }
+
+    } //section
+  } //#heandshe
+
+
+  &#contact-us {
+    section {
+      @extend .row;
+
+      .valerie, .justin {
+        @extend .col-md-3;
+
+        ul {
+          @extend .list-inline;
+          padding-right: 0;
+        }
+      }
+
+      .valerie {
+        @extend .col-md-offset-4;
+      }
+    } //section
+  } //#contact-us
+
+} //.content
+
+#details {
+  background-color: #e7e6e2;
+} //#details
