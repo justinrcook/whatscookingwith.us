@@ -44,11 +44,13 @@
       @extend .row;
 
       .valerie, .justin {
-        @extend .col-md-3;
+        @extend .col-md-2;
 
         ul {
           @extend .list-inline;
-          padding-right: 0;
+          li {
+            padding-right: 0;
+          }
         }
       }
 
