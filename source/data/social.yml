@@ -1,0 +1,16 @@
+valerie:
+  - network: instagram
+    url: //instagram.com
+  - network: twitter
+    url: //twitter.com
+  - network: facebook
+    url: //facebook.com
+  - network: pinterest
+    url: //pinterest.com
+  - network: email-her
+    url: mailto:valeriemm11@gmail.com
+justin:
+  - network: twitter
+    url: //twitter.com/justinrcook
+  - network: email-him
+    url: mailto:justinrcook@gmail.com
