@@ -13,14 +13,14 @@ $(document).ready(function () {
   // Offset scrollspy with fixed navbar
   // - http://stackoverflow.com/questions/17879846/boostrap-scrollspy-offset-on-a-fixed-navbar-does-not-work
   // Height based on the height of the navbar
-  var offsetHeight = 81;
+  var offsetHeight = 82;
 
   $('body').scrollspy({
     offset: offsetHeight
   });
 
   $('nav li a').click(function(event) {
-    var scrollPos = $('body > .container').find($(this).attr('href')).offset().top - (offsetHeight - 1);
+    var scrollPos = $('body').find($(this).attr('href')).offset().top - (offsetHeight - 1);
 
     $('body,html').animate({
       scrollTop: scrollPos
