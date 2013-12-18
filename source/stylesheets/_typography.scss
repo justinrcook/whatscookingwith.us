@@ -24,3 +24,10 @@ h3 {
   line-height: 23px;
   color: $brand-alternate;
 }
+
+footer {
+  h2, p {
+    font-family: $font-family-amatic-sc;
+    color: #fff;
+  }
+}

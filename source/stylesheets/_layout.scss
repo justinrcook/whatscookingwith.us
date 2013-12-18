@@ -63,5 +63,9 @@
 } //.content
 
 #details {
-  background-color: #e7e6e2;
+  background-color: $brand-section-bg;
 } //#details
+
+footer {
+  border-top: ($line-height-computed * 2) $brand-section-bg solid;
+}
