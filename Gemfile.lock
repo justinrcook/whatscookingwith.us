@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/capistrano/rbenv.git
-  revision: d3ced5e51fa2b25e96ad748578734c38929640df
+  revision: eee41a3f202c53b0d44ffde89d8147e3b5b7c474
   specs:
     capistrano-rbenv (2.0.0)
       capistrano (~> 3.0)
@@ -96,7 +96,7 @@ GEM
       rack (>= 1.0)
     rake (10.1.0)
     rb-fsevent (0.9.3)
-    rb-inotify (0.9.2)
+    rb-inotify (0.9.3)
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
