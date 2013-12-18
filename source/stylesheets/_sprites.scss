@@ -1,0 +1,59 @@
+.email-him-hover,
+.email-him,
+.email-her-hover,
+.email-her,
+.pinterest-hover,
+.pinterest,
+.facebook-hover,
+.facebook,
+.twitter-hover,
+.twitter,
+.instagram-hover,
+.instagram {
+  background: image-url('sprites.png') no-repeat;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.email-him {
+  background-position: -22px 0;
+  &:hover {
+    background-position: 0 0;
+  }
+}
+
+.email-her {
+  background-position: -66px 0;
+  &:hover {
+    background-position: -44px 0;
+  }
+}
+
+.pinterest {
+  background-position: -110px 0;
+  &:hover {
+    background-position: -88px 0;
+  }
+}
+
+.facebook {
+  background-position: -154px 0;
+  &:hover {
+    background-position: -132px 0;
+  }
+}
+
+.twitter {
+  background-position: -198px 0;
+  &:hover {
+    background-position: -176px 0;
+  }
+}
+
+.instagram {
+  background-position: -242px 0;
+  &:hover {
+    background-position: -220px 0;
+  }
+}
