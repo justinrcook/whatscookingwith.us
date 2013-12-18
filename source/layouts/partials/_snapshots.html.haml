@@ -1,0 +1,10 @@
+/ Snapshots
+/ ==================================================
+.content#snapshots
+  %section
+    %h1 Snapshots
+    - (1..12).each_slice(4) do |group|
+      .snapshots
+        - group.each do |snap|
+          .snap
+            = image_tag "snapshots/#{snap}.jpg", alt: ''

@@ -1,0 +1,18 @@
+/ Carousel
+/ ==================================================
+#carousel.carousel.slide{ data: { ride: 'carousel' } }
+  / Indicators
+  %ol.carousel-indicators
+    %li.active{ data: { target: '`carousel', slide_to: 0 } }
+    %li{ data: { target: '`carousel', slide_to: 1 } }
+    %li{ data: { target: '`carousel', slide_to: 2 } }
+
+  .carousel-inner
+    .item.active= image_tag 'carousel/1.jpg', class: 'img-responsive', alt: ''
+    .item= image_tag 'carousel/2.jpg', class: 'img-responsive', alt: ''
+    .item= image_tag 'carousel/3.jpg', class: 'img-responsive', alt: ''
+
+  = link_to '#carousel', class: 'left carousel-control', data: { slide: 'prev' } do
+    %span.glyphicon.glyphicon-chevron-left
+  = link_to '#carousel', class: 'right carousel-control', data: { slide: 'next' } do
+    %span.glyphicon.glyphicon-chevron-right
