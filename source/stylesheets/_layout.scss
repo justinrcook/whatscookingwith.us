@@ -68,4 +68,6 @@
 
 footer {
   border-top: ($line-height-computed * 2) $brand-section-bg solid;
+  background: $brand-footer-bg image_url('footer-bg.jpg') no-repeat top center;
+  min-height: 182px;
 }
