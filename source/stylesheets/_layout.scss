@@ -30,7 +30,14 @@
 
       .he {
         h2 {
-          background: image_url('spatula.png') no-repeat 25% 50%;
+          //background: image_url('spatula.png') no-repeat 25% 50%;
+          .spatula {
+            display: inline-block;
+            width: 118px;
+            height: 30px;
+            line-height: 30px;
+            background: image_url('spatula.png') 0 0 no-repeat;
+          }
         }
       } //.he
 
