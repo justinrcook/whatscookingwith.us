@@ -26,11 +26,12 @@ h3 {
 }
 
 footer {
-  h2, p {
+  p {
     font-family: $font-family-amatic-sc;
+    font-size: $font-size-h3;
     color: #fff;
   }
-  p {
+  p.copyright {
     font-size: $font-size-large;
   }
 }
