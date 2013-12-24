@@ -3,9 +3,9 @@
 #carousel.carousel.slide{ data: { ride: 'carousel' } }
   / Indicators
   %ol.carousel-indicators
-    %li.active{ data: { target: '`carousel', slide_to: 0 } }
-    %li{ data: { target: '`carousel', slide_to: 1 } }
-    %li{ data: { target: '`carousel', slide_to: 2 } }
+    %li.active{ data: { target: '#carousel', slide_to: 0 } }
+    %li{ data: { target: '#carousel', slide_to: 1 } }
+    %li{ data: { target: '#carousel', slide_to: 2 } }
 
   .carousel-inner
     .item.active= image_tag 'carousel/1.jpg', class: 'img-responsive', alt: ''
