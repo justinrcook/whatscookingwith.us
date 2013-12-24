@@ -1,0 +1,36 @@
+/ Basic favicons
+= tag :link, href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: '16x16 32x32 48x48 64x64'
+= tag :link, href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'
+/[if IE]
+  = tag :link, href: image_path('favicons/favicon.ico'), rel: 'shortcut icon'
+
+/ For Opera Speed Dial:
+= tag :link, href: image_path('favicons/favicon-195.png'), rel: 'icon', type: 'image/png', sizes: '195x195'
+
+/ For iPad with high-resolution Retina display running iOS ≥ 7:
+= tag :link, href: image_path('favicons/favicon-152.png'), rel: 'apple-touch-icon', sizes: '152x152'
+
+/ For iPad with high-resolution Retina display running iOS ≤ 6:
+= tag :link, href: image_path('favicons/favicon-144.png'), rel: 'apple-touch-icon', sizes: '144x144'
+
+/ For iPhone with high-resolution Retina display running iOS ≥ 7:
+= tag :link, href: image_path('favicons/favicon-120.png'), rel: 'apple-touch-icon', sizes: '120x120'
+
+/ For iPhone with high-resolution Retina display running iOS ≤ 6:
+= tag :link, href: image_path('favicons/favicon-114.png'), rel: 'apple-touch-icon', sizes: '114x114'
+
+/ For Google TV devices:
+= tag :link, href: image_path('favicons/favicon-96.png'), rel: 'icon', sizes: '96x96', type: 'image/png'
+
+/ For iPad Mini:
+= tag :link, href: image_path('favicons/favicon-76.png'), rel: 'apple-touch-icon', sizes: '76x76'
+
+/ For first- and second-generation iPad:
+= tag :link, href: image_path('favicons/favicon-72.png'), rel: 'apple-touch-icon', sizes: '72x72'
+
+/ For non-Retina iPhone, iPod Touch, and Android 2.1+ devices:
+= tag :link, href: image_path('favicons/favicon-57.png'), rel: 'apple-touch-icon'
+
+/ Windows 8 Tiles
+= tag :meta, content: '#FFFFFF', name: 'msapplication-TileColor'
+= tag :meta, content: image_path('favicons/favicon-144.png'), name: 'msapplication-TileImage'
