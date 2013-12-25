@@ -11,17 +11,12 @@
   } //#latest & #snaps
 
   &#heandshe {
-    padding: ($line-height-computed * 2) 0;
-
     section {
       @extend .row;
 
       .he,
       .she {
-        @extend .text-left;
         @extend .col-md-6;
-        padding-left:  $grid-gutter-width;
-        padding-right: $grid-gutter-width;
 
         h2 {
           @extend .text-center;
