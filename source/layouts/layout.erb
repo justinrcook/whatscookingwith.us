@@ -14,7 +14,10 @@
 
   <body class="<%= page_classes %>">
     <%= partial 'layouts/partials/nav' %>
-    <%= yield %>
+
+    <div class="container">
+      <%= yield %>
+    </div><!--/.container -->
 
     <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js' %>
     <%= javascript_include_tag  "all" %>
