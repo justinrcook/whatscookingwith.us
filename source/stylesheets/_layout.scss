@@ -1,0 +1,46 @@
+
+
+// Navbar
+// -------------------------
+
+nav {
+  @extend .navbar;
+  @extend .navbar-default;
+  @extend .navbar-static-top;
+
+  font-family: $font-family-serif;
+  font-size: $font-size-large * 1.8;
+}
+nav header {
+  @extend .navbar-header;
+}
+
+nav li a {}
+
+
+
+.wedding-colors {
+  @extend .list-inline;
+}
+
+
+// Footer
+// -------------------------
+
+footer {
+  margin-top: $line-height-computed * 4;
+  background:
+    image_url('footer-pic.jpg') center center no-repeat, // Top image
+    image_url('footer-bg.jpg');                          // Bottom image
+
+  min-height: 140px;
+  font-family: $font-family-serif;
+  font-size: $font-size-large * 1.1;
+  color: #fff;
+
+  p:first-child {
+    font-size: $font-size-large * 1.3;
+    margin-top: $line-height-computed;
+    margin-bottom: 0;
+  }
+}
