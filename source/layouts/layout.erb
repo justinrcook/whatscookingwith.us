@@ -16,7 +16,12 @@
 
   <body class="<%= page_classes %>">
 
-    <%= yield %>
+    <%= partial 'layouts/partials/jumbotron' %>
+    <%= partial 'layouts/partials/nav' %>
+
+    <div class="container">
+      <%= yield %>
+    </div><!--/.container -->
 
     <footer>
       <div class="container">
