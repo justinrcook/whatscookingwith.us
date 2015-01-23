@@ -1,7 +1,8 @@
 
 // Boostrap
+@import "variables";
 @import "bootstrap";
 
-body {
-  padding-top: 80px;
-}
+@import "layout";
+@import "typography";
+@import "jumbotron";

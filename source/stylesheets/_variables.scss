@@ -1,11 +1,48 @@
+// Google Webfonts
+// -------------------------
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans);
+
+
 // Fonts
 // -------------------------
-$font-family-amatic-sc:        "Amatic SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-cabin-condensed:  "Cabin Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-amatic-sc:        'Amatic SC', cursive;
+$font-family-open-sans:        'Open Sans', sans-serif;
+
 
 // Wedding Colors
 // -------------------------
-$wedding-yellow:  #fcc028;
-$wedding-pink:    #e67991;
-$wedding-mint:    #8ed1cb;
-$wedding-tan:     #cdb8a7;
+$wedding-yellow:      #fcc028;
+$wedding-pink:        #e67991;
+$wedding-mint:        #8ed1cb;
+$wedding-tan:         #cdb8a7;
+$wedding-gray:        #43403a;
+$wedding-white:       #43403a;
+
+
+// Typography
+// -------------------------
+$font-family-sans-serif:    $font-family-open-sans;
+$font-family-serif:         $font-family-amatic-sc;
+$font-size-base:            16px !default;
+
+
+// Navbar
+// -------------------------
+$navbar-height:                    70px !default;
+$navbar-collapse-max-height:       340px !default;
+
+$navbar-default-color:             #777 !default;
+$navbar-default-bg:                $wedding-yellow !default;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-link-color:                #fff !default;
+$navbar-default-link-hover-color:          #edac1a !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         #555 !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           $wedding-mint !default;
+$navbar-default-toggle-icon-bar-bg:        #fff !default;
+$navbar-default-toggle-border-color:       #fff !default;
