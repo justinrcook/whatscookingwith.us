@@ -1,0 +1,4 @@
+- unless current_page.data.images.nil?
+  %ul.list-unstyled.images
+    - current_page.data.images.each do |image|
+      %li= image_tag image, class: "img-circle"
