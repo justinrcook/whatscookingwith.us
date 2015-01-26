@@ -10,11 +10,11 @@ images :
 
 ### Our Color Palette
 
-
-* yellow #fcc028
-* pink #e67991
-* mint #8ed1cb
-* tan #cdb8a7
+{:.wedding-colors}
+* &nbsp;
+* &nbsp;
+* &nbsp;
+* &nbsp;
 
 ### Location
 
