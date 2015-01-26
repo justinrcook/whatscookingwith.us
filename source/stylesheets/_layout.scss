@@ -1,4 +1,55 @@
 
+.content h1 {
+  @extend .page-header;
+}
+
+// Paragraph Lead
+// -------------------------
+
+.lead {
+  font-family: $font-family-amatic-sc;
+  font-size: 35px;
+  color: $wedding-pink;
+}
+
+// Images
+// -------------------------
+
+.images {
+  @extend .col-sm-4;
+}
+.images ul {
+  @extend .list-unstyled;
+}
+.images ul li {
+  margin-bottom: $padding-large-horizontal;
+}
+
+
+// Page content
+// -------------------------
+.content {
+  @extend .col-sm-8;
+}
+
+
+// Ceremony Page
+// -------------------------
+
+.ceremony ul.wedding-colors {
+  @extend .list-inline;
+}
+.ceremony ul.wedding-colors li {
+  @extend .img-circle;
+  width: 80px;
+  height: 80px;
+
+  &:first-child  { background-color: $wedding-yellow; }
+  &:nth-child(2) { background-color: $wedding-pink;   }
+  &:nth-child(3) { background-color: $wedding-mint;   }
+  &:last-child   { background-color: $wedding-tan;    }
+}
+
 
 // Navbar
 // -------------------------
@@ -16,12 +67,6 @@ nav header {
 }
 
 nav li a {}
-
-
-
-.wedding-colors {
-  @extend .list-inline;
-}
 
 
 // Footer
