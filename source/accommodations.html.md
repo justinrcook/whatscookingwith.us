@@ -6,6 +6,8 @@ images:
   - accommodations-3.jpg
 ---
 
+# Accomodations
+
 ## Flights
 
 
