@@ -9,7 +9,7 @@
     <meta name='description' content='Website for our upcoming wedding July 24th, 2015.'>
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "What's Cooking with Us" %></title>
+    <title><%= current_page.data.title %> - What's Cooking with Us</title>
 
     <%= stylesheet_link_tag "all" %>
   </head>
@@ -20,7 +20,13 @@
     <%= partial 'layouts/partials/nav' %>
 
     <div class="container">
-      <%= yield %>
+      <div class="images">
+        <%= partial 'layouts/partials/images' %>
+      </div><!--/.images -->
+
+      <div class="content">
+        <%= yield %>
+      </div><!--/.content -->
     </div><!--/.container -->
 
     <footer>
