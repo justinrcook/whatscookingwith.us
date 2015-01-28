@@ -39,25 +39,31 @@
       margin-bottom: $padding-large-horizontal;
     }
   }
+
 }//.images
 
 
 // Ceremony Page
 // -------------------------
 
-.ceremony ul.wedding-colors {
-  @extend .list-inline;
-}
-.ceremony ul.wedding-colors li {
-  @extend .img-circle;
-  width: 80px;
-  height: 80px;
+.ceremony {
 
-  &:first-child  { background-color: $wedding-yellow; }
-  &:nth-child(2) { background-color: $wedding-pink;   }
-  &:nth-child(3) { background-color: $wedding-mint;   }
-  &:last-child   { background-color: $wedding-tan;    }
-}
+  ul.wedding-colors {
+    @extend .list-inline;
+
+     li {
+      @extend .img-circle;
+      width: 80px;
+      height: 80px;
+
+      &:first-child  { background-color: $wedding-yellow; }
+      &:nth-child(2) { background-color: $wedding-pink;   }
+      &:nth-child(3) { background-color: $wedding-mint;   }
+      &:last-child   { background-color: $wedding-tan;    }
+    }
+  }
+
+}//.ceremony
 
 
 // Navbar
