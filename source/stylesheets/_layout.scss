@@ -1,7 +1,21 @@
 
+// Content
+// -------------------------
+// Page content
+// -------------------------
+.content {
+  @extend .col-sm-8;
+}
+
 .content h1 {
   @extend .page-header;
 }
+
+// Make any image in the content area responsive
+.content img {
+  @extend .img-responsive;
+}
+
 
 // Paragraph Lead
 // -------------------------
@@ -23,13 +37,6 @@
 }
 .images ul li {
   margin-bottom: $padding-large-horizontal;
-}
-
-
-// Page content
-// -------------------------
-.content {
-  @extend .col-sm-8;
 }
 
 
