@@ -1,5 +1,9 @@
 ---
 title: Registry &amp; Honeymoon
+images:
+  - registry-1.jpg
+  - registry-2.jpg
+  - registry-3.jpg
 ---
 
 # Registry & Honeymoon

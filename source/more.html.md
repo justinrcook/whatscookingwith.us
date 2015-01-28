@@ -1,5 +1,9 @@
 ---
 title: +More
+images:
+  - more-1.jpg
+  - more-2.jpg
+  - more-3.jpg
 ---
 
 # Extra Goodies

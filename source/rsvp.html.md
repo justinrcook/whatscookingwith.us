@@ -1,5 +1,9 @@
 ---
 title: RSVP
+images:
+  - rsvp-1.jpg
+  - rsvp-2.jpg
+  - rsvp-3.jpg
 ---
 
 # Hello Friends & Family

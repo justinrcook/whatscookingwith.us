@@ -8,6 +8,8 @@ images:
 
 # Accomodations
 
+![Flying from Iowa to Oregon!](/images/fly-fly-ia-to-or.png)
+
 ## Flights
 
 
