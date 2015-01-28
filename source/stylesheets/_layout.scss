@@ -5,17 +5,17 @@
 // -------------------------
 .content {
   @extend .col-sm-8;
-}
 
-.content h1 {
-  @extend .page-header;
-}
+  h1 {
+    @extend .page-header;
+  }
 
-// Make any image in the content area responsive
-.content img {
-  @extend .img-responsive;
-}
+  // Make any image in the content area responsive
+  img {
+    @extend .img-responsive;
+  }
 
+}//.content
 
 // Paragraph Lead
 // -------------------------
@@ -31,13 +31,15 @@
 
 .images {
   @extend .col-sm-4;
-}
-.images ul {
-  @extend .list-unstyled;
-}
-.images ul li {
-  margin-bottom: $padding-large-horizontal;
-}
+
+  ul {
+    @extend .list-unstyled;
+
+    li {
+      margin-bottom: $padding-large-horizontal;
+    }
+  }
+}//.images
 
 
 // Ceremony Page
