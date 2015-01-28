@@ -12,11 +12,10 @@ h5, h6 {
 }
 
 // Color
-h1, h6 { color: $wedding-pink;  }
-h2     { color: $wedding-gray;  }
-h3     { color: $wedding-white; }
-h4     { color: $wedding-gray;  }
-h5     { color: $wedding-mint;  }
+h1, h6 { color: $wedding-pink; }
+h2, h4 { color: $wedding-gray; }
+h3, h5 { color: $wedding-mint; }
+
 
 // Size
 h1, h2, h3 { font-size: 48px; }
