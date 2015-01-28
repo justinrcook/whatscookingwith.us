@@ -1,0 +1,21 @@
+// Ceremony Page
+// -------------------------
+
+.ceremony {
+
+  ul.wedding-colors {
+    @extend .list-inline;
+
+     li {
+      @extend .img-circle;
+      width: 80px;
+      height: 80px;
+
+      &:first-child  { background-color: $wedding-yellow; }
+      &:nth-child(2) { background-color: $wedding-pink;   }
+      &:nth-child(3) { background-color: $wedding-mint;   }
+      &:last-child   { background-color: $wedding-tan;    }
+    }
+  }
+
+}//.ceremony
