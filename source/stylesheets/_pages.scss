@@ -19,3 +19,18 @@
   }
 
 }//.ceremony
+
+
+// More Page
+// -------------------------
+
+.more {
+  .location {
+    @include glyphicon("\e062");
+  }
+
+  .www {
+    @include glyphicon("\e144");
+  }
+
+}//.more
