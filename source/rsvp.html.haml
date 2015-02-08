@@ -1,0 +1,46 @@
+---
+title: RSVP
+images:
+  - rsvp-1.jpg
+  - rsvp-2.jpg
+  - rsvp-3.jpg
+---
+
+%h1 Hello Friends & Family
+
+%p
+  We are so excited to exchange our vows in Portland! Because we know that time
+  and travel expenses will limit the ability for everyone to attend, there will
+  be a larger reception back in Iowa this Fall.
+
+= form_tag "http://192.168.33.10/rsvp/", method: "post" do
+  .form-group
+    %label{ for: :name } The lovely
+    = text_field_tag :name, class: "form-control input-lg",
+      placeholder: "Your name goes here"
+
+  .form-group
+    %label{ for: :guest } &amp;
+    = text_field_tag :guest, class: "form-control input-lg",
+      placeholder: "Your partner in wedding crime"
+
+  .radio
+    %label
+      = radio_button_tag :coming, value: "yes"
+      have packed our bag(s)...we're ready to go!
+
+  .radio
+    %label
+      = radio_button_tag :coming, value: "no"
+      won't be attending...but we have a really great excuse!
+
+  .form-group
+    %label{ for: :epic_excuse } Epic excuse
+    = text_area_tag :epic_excuse, rows: 3, class: "form-control"
+
+  .form-group
+    %button.btn.btn-lg.btn-success{ type: "submit" } I'm ready!
+
+
+%p.lead
+  Kindly RSVP by March 13 to ensure we save a seat for your butt
