@@ -17,7 +17,7 @@ images:
   Hey! We're glad you're so excited but can you make sure you fill out all
   the fields? Thanks!
 
-= form_tag "http://192.168.33.10/rsvp/", method: "post" do
+= form_tag "http://rsvp.whatscookingwith.us/", method: "post" do
   .form-group.has-error
     %label.control-label{ for: :name } The lovely
     = text_field_tag :name, class: "form-control input-lg",
