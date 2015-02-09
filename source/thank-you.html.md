@@ -3,7 +3,7 @@ title: Thank you
 images:
   - index-2.jpg
   - rsvp-2.jpg
-  - accomadations-3.jpg
+  - accommodations-3.jpg
 ---
 
 # Thank you!
