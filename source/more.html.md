@@ -26,11 +26,6 @@ token for a 3oz. sample.
 
 [oregonbrewfest.com](http://www.oregonbrewfest.com/){:.www}
 
-###### Saturday Summer SantaCon
-
-Saturday, July 25 — Lots of people dressed in Santa suits, swarming Portland in July.
-www >
-
 ## Recommended Sights & To-Do’s
 
 ###### International Rose Test Garden
