@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.3.7"
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass', '~> 3.3.4'
 gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-imageoptim'
 
