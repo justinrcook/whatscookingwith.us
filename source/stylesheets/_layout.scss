@@ -52,10 +52,17 @@ nav {
   @extend .navbar-static-top;
 
   font-family: $font-family-serif;
-  font-size: $font-size-large * 1.8;
+  font-size: $font-size-large * 1.5;
 }
 nav header {
   @extend .navbar-header;
+}
+
+nav .navbar-brand {
+  padding: 12px 15px;
+}
+nav .navbar-brand img {
+  height: 50px;
 }
 
 nav.affix {
@@ -63,6 +70,20 @@ nav.affix {
   top: 0;
   width: 100%;
   z-index:10;
+}
+
+// @media (max-width: 767px)  show logo
+
+@media (min-width: 777px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    font-size: $font-size-large * 1.8;
+  }
 }
 
 
