@@ -1,0 +1,11 @@
+%footer
+  .container
+    .row
+      .col-sm-6
+        %p Designed by her. Developed by him.
+        %p.copyright &copy; All rights reserved, and stuff.
+
+      - if page_classes.include?("more")
+        .col-sm-4
+          %p.text-right
+            = link_to "Show me the beer", "beer.html"
