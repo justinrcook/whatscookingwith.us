@@ -56,11 +56,13 @@
 // Registry
 // -------------------------
 .registry {
-  ul {
-    @extend .list-unstyled;
+  .content {
+    ul {
+      @extend .list-unstyled;
 
-    li {
-      margin-top: $line-height-computed;
-    }
+      li {
+        margin-top: $line-height-computed;
+      }
+    }    
   }
 }
