@@ -48,6 +48,19 @@
   .has-error {
     input {
       @include placeholder($brand-danger);
-    }    
+    }
   }
 }//.rsvp-errors
+
+
+// Registry
+// -------------------------
+.registry {
+  ul {
+    @extend .list-unstyled;
+
+    li {
+      margin-top: $line-height-computed;
+    }
+  }
+}
