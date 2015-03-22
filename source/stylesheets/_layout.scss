@@ -3,6 +3,10 @@
 // -------------------------
 // Page content
 // -------------------------
+.content-wrapper {
+  margin-top: $line-height-computed;
+}
+
 .content {
   @extend .col-sm-8;
 
