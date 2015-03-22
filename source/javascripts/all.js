@@ -1,10 +1,13 @@
 //= require 'bootstrap'
 //= require_tree .
 
-
 // Affix for sticky nav
-$('nav').affix({
+// Keep the sticky nav from jumping: http://stackoverflow.com/a/13151016
+
+$(".nav-wrapper").height($("nav").height());
+
+$("nav").affix({
   offset: {
-    top: $('header').height()
+    top: $("nav").offset().top
   }
 });
