@@ -25,7 +25,9 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
-  activate :imageoptim      # Compress images
+
+  # Compress images
+  activate :imageoptim, svgo: false
 end
 
 activate :deploy do |deploy|
