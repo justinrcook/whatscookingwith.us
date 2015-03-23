@@ -27,7 +27,7 @@ configure :build do
   activate :relative_assets
 
   # Compress images
-  activate :imageoptim, svgo: false
+  activate :imageoptim, svgo: false, manifest: false
 end
 
 activate :deploy do |deploy|
