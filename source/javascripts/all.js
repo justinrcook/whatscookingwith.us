@@ -4,10 +4,12 @@
 // Affix for sticky nav
 // Keep the sticky nav from jumping: http://stackoverflow.com/a/13151016
 
-$(".nav-wrapper").height($("nav").height());
+$(function() {
+  $(".nav-wrapper").height($("nav").height());
 
-$("nav").affix({
-  offset: {
-    top: $("nav").offset().top
-  }
+  $("nav").affix({
+    offset: {
+      top: $("nav").offset().top
+    }
+  });
 });
