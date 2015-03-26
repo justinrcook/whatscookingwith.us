@@ -2,6 +2,7 @@
 // see all avilable options in bootstrap-sprockets.js
 //= require "bootstrap/affix"
 //= require "bootstrap/button"
+//= require "bootstrap/collapse"
 //= require "bootstrap/transition"
 
 // Affix for sticky nav
