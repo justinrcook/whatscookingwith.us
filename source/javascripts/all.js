@@ -10,11 +10,13 @@
 // return zero sometimes on page load making the navbar jump to the
 // top of the page immediately after scrolling.
 
-$("header img").bind("load", function() {
+$(window).bind("load", function() {
+
+  $(".nav-wrapper").height($("nav").height());
 
   $("nav").affix({
     offset: {
-      top: $("header").height()
+      top: $("nav").offset().top
     }
   });
 
