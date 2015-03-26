@@ -6,14 +6,16 @@
 //= require "bootstrap/transition"
 
 // Affix for sticky nav
-// Keep the sticky nav from jumping: http://stackoverflow.com/a/13151016
+// - Wait for the header image to load since the header image will
+// return zero sometimes on page load making the navbar jump to the
+// top of the page immediately after scrolling.
 
-$(function() {
-  $(".nav-wrapper").height($("nav").height());
+$("header img").bind("load", function() {
 
   $("nav").affix({
     offset: {
-      top: $("nav").offset().top
+      top: $("header").height()
     }
   });
+
 });
