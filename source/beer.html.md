@@ -1,9 +1,9 @@
 ---
 title: Beer
 images :
-  - ceremony-1.jpg
-  - ceremony-2.jpg
-  - ceremony-3.jpg
+  - beer-1.jpg
+  - beer-2.jpg
+  - beer-3.jpg
 ---
 
 # Beer!
