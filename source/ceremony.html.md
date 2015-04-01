@@ -23,7 +23,9 @@ Off N Crawford Street, between N Pittsburg Ave & N Alta Ave.
 
 ### Wedding Attire
 
-It's a seated ceremony (and seated reception).
+It's a seated ceremony (and seated reception). History tells us the weather
+should be in the 70s with low humidity and sunny skies. Overnight temps will
+be near 60º.
 
 
 ### Parking

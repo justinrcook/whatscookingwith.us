@@ -8,7 +8,8 @@ images:
 
 # Registry
 
-If you’d like to contribute to our ever after, here’s a few places we are registered.
+Your presence is our present, however if you’d like to contribute to our ever
+after, here’s a few places we are registered.
 
 * [![Kohls Registry](/images/registry-kohls.png)](http://target.com)
 * [![Target Registry](/images/registry-target.png)](http://target.com)
