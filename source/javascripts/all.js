@@ -10,8 +10,7 @@
 // return zero sometimes on page load making the navbar jump to the
 // top of the page immediately after scrolling.
 
-$(window).bind("load", function() {
-
+function stikyfy_nav() {
   $(".nav-wrapper").height($("nav").height());
 
   $("nav").affix({
@@ -19,5 +18,14 @@ $(window).bind("load", function() {
       top: $("nav").offset().top
     }
   });
+}
 
+// Stick the nav on load
+$(window).bind("load", function() {
+  stikyfy_nav();
+});
+
+// Restick the nav on window resize
+$(window).resize(function() {
+  stikyfy_nav();
 });
