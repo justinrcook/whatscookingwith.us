@@ -47,14 +47,15 @@ with complaints of being slow but people like to complain too.
 
 ##### Rent a Car
 
+Everyone's pretty familiar with this, don't need to explain.
 
 ##### [Trimet](http://trimet.org/)
 
-Public transportion via trains &amp; buses is pretty widespread going just about
+Public transportation via trains &amp; buses is pretty widespread going just about
 anywhere you could want to go. We've heard good things and bad things, mostly
-good though so that's good. Can't speak personally for Trimet as we've only taken
-the Max (train) from the airport once. On their [website](http://trimet.org/)
-though there's a handy trip planner give you an estimate of the time and route
+good though. We can't speak personally for Trimet as we've only taken
+the Max (train) from the airport one time. Their [website](http://trimet.org/)
+has a handy trip planner that provides estimates for time and best route options
 to get you where you want to go. There's also an app
 ([Android](https://play.google.com/store/apps/details?id=org.trimet.mt.mobiletickets)
 , [iOS](https://itunes.apple.com/us/app/trimet-tickets/id687943985?mt=8&uo=4"))
@@ -62,5 +63,18 @@ where you can plan a trip, buy passes and see where the hell your bus is.
 
 ##### [Zipcar](http://www.zipcar.com/portland/)
 
+Feed me zipcar information!!
 
 ## Lodging
+
+There is not a centralized space we recommend staying, as the locations of the
+ceremony and reception are different. ([Here is a map](http://goo.gl/PO3PHi)
+of our home, the ceremony and reception locations for reference.) You can call
+around and find something that best suites your trip wish list, but why not try
+something more... Portland!?
+
+##### [AirBnb](https://www.airbnb.com/)
+
+Rent a room, a floor or a whole house for the duration of your stay. Depending
+on the size of your group, renting an Airbnb place can be more cost efficient
+than a hotel.

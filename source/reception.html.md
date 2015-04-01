@@ -14,7 +14,8 @@ Portland, OR 97212
 
 ## Dinner & Dancin
 
-There will be an intimate seated dinner and reception with some room to mingle
-and break out your moves. 
+Arrive and have a look around! There will be a customized four course,
+family style meal served, followed by some traditions, blah blah... and time
+under the lights to celebrate break out your moves.
 
 ## Hall History

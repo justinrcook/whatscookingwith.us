@@ -38,6 +38,13 @@
 // RSVP
 // -------------------------
 
+.rsvp, .rsvp-errors {
+  button {
+    background-color: $wedding-green;
+    color: #fff;
+  }
+}
+
 .rsvp-errors {
   .has-error {
     input {

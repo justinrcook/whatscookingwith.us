@@ -21,7 +21,7 @@ popcorn [lover].
 
 J.R. (short for Justin Roy) also brews beer. He and a small group of
 friends used to gather monthly to brew 5-10 gallon batches. IPAs are
-his favorite...and I’m sure there will be some on tap in the dining
+his favorite...and I’m sure there will be some homebrew on tap in the dining
 room kegerator very soon.
 
 Additional random facts that should probably be noted: he loves biking,
@@ -32,8 +32,9 @@ Justin is amazing. It’s him and I and the world, and nothing else matters.
 
 ## Valerie Merchant
 
-Valerie is a super awesome master [’s degree] designer, maker and crafter.
-She creates custom Financial Institution websites for Banno, in the home office as well.
+Valerie is a super awesome master [’s degree] designer and crafter... designing
+and illustrating our wedding invitations too, of course. During the day creates
+custom Financial Institution websites for Banno, in the home office as well.
 
 She loves scones, apples strudels... pastries in general, and has a soft
 spot for (frosted cake) donuts with sprinkles!!!! (though yeast are clearly
