@@ -27,7 +27,7 @@ it's cheaper to fly from Portland to Des Moines, routing through Minneapolis,
 than a direct flight from Portland to Minneapolis. If you're only traveling
 with carry-on luggage, you can just take one of the two leg trip.
 
-##### Hipmunk
+###### Hipmunk
 
 Hipmunk's which search option allows you to chose "plus or minus" one or two
 days; if your travel time is flexible, you can compare and alter your trip
@@ -35,7 +35,7 @@ length or travel days based on the best price.
 
 [hipmunk.com](https://www.hipmunk.com/){:.www}
 
-##### Skiplagged
+###### Skiplagged
 
 Skiplagged is built just to look for partial legs of flights, like mentioned
 above.
@@ -47,7 +47,7 @@ any help!
 
 ## Getting Around
 
-##### Uber
+###### Uber
 
 The taxi alternative&trade; After a
 [less than legal start in December '14](http://goo.gl/OqcSDg) Uber will be
@@ -56,7 +56,7 @@ ready to pickup and deliver everyone with a super simple app.
 
 [uber.com/cities/portland](https://www.uber.com/cities/portland){:.www}
 
-##### Car 2 Go
+###### Car 2 Go
 
 Grab a car and go! They're everywhere...seriously. Sometimes there's two
 or more parked near our house. Downside is a $35 registration fee but after
@@ -70,7 +70,7 @@ trip since there's some setup in getting a members card and something something.
 
 [portland.car2go.com](http://portland.car2go.com/){:.www}
 
-##### Taxi
+###### Taxi
 
 Good 'ol taxis. Love them...hate them. Most people strongly dislike them
 with complaints of being slow but people like to complain too.
@@ -81,11 +81,11 @@ with complaints of being slow but people like to complain too.
 * [Radio Cab](http://www.radiocab.net/)
 
 
-##### Rent a Car
+###### Rent a Car
 
 Everyone's pretty familiar with this, don't need to explain.
 
-##### Trimet
+###### Trimet
 
 Public transportation via trains &amp; buses is pretty widespread going just about
 anywhere you could want to go. We've heard good things and bad things, mostly
@@ -99,7 +99,7 @@ where you can plan a trip, buy passes and see where the hell your bus is.
 
 [trimet.org](http://trimet.org/){:.www}
 
-##### Zipcar
+###### Zipcar
 
 Feed me zipcar information!!
 
@@ -114,7 +114,7 @@ around and find something that best suites your trip wish list, but why not try
 something more... Portland!? This is just a little research, based only on
 Internet facts.
 
-##### Ace Hotel
+###### Ace Hotel
 
 Part of a small boutique chain, its minimalist rooms incorporate retro-styled
 Pacific Northwest art, recycled materials and vintage furniture. There's a
@@ -124,7 +124,7 @@ sightseeing, and it's popular with locals as well. Doubles from $125.
 
 [acehotel.com/portland](http://www.acehotel.com/portland){:.www}
 
-##### AirBnb
+###### AirBnb
 
 Rent unique places to stay from local hosts; get a room, a floor or a whole
 house for the duration of your stay. Depending on the size of your group,
@@ -132,7 +132,7 @@ renting an Airbnb place can be more cost efficient than a hotel.
 
 [airbnb.com](https://www.airbnb.com/){:.www}
 
-##### Kennedy School
+###### Kennedy School
 
 The once-abandoned 1915 elementary school is now one of Portland's quirkiest
 hotels, with 57 guest rooms that still retain original features such as
@@ -141,7 +141,7 @@ small bars, a heated pool and a McMenamins brewery. Double rooms from $115.
 
 [mcmenamins.com](http://www.mcmenamins.com/427-kennedy-school-home){:.www}
 
-##### Everett Street Guesthouse
+###### Everett Street Guesthouse
 
 A casual 1907 Craftsman style home B&B with no frilly curtains, teddy bears
 or potpourri. Located in a quiet neighborhood within walking distance
@@ -150,7 +150,7 @@ Park. Separate studio cottage also available.
 
 [everettstreetguesthouse.com](http://www.everettstreetguesthouse.com/){:.www}
 
-##### Friendly Bike Guest House
+###### Friendly Bike Guest House
 
 This guest house is surrounded by the restaurants and pubs of Williams Avenue
 and the Alberta Arts District that are within walking/biking distance. Guests
@@ -161,7 +161,7 @@ friendly Bunk beds at $36, and doubles from $76.
 
 [Additional guest houses](http://www.lonelyplanet.com/usa/pacific-northwest/portland/hotels/guesthouses){:.www}
 
-##### White Eagle
+###### White Eagle
 
 It's said to be "North Portland's haunted brothel", built in 1905 as a
 hotel/brothel before being converted into a boutique hotel and rock venue.
