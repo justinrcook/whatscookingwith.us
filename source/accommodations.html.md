@@ -101,7 +101,9 @@ where you can plan a trip, buy passes and see where the hell your bus is.
 
 ###### Zipcar
 
-Feed me zipcar information!!
+While not as popular as Car 2 Go still a good option and the bonus of having
+a real car over a Smart card. Rates are around from $7.75/hr and $74/day and
+there's a $25 application fee but also a refundable 30 day trial, just saying...
 
 [zipcar.com/portland](http://www.zipcar.com/portland/){:.www}
 
