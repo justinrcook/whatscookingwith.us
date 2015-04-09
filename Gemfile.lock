@@ -40,6 +40,8 @@ GEM
     execjs (2.4.0)
     exifr (1.2.1)
     ffi (1.9.8)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
     fspath (2.1.1)
     haml (4.0.6)
       tilt
@@ -156,6 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.4)
+  font-awesome-sass
   middleman (~> 3.3.7)
   middleman-deploy (~> 1.0)
   middleman-imageoptim
