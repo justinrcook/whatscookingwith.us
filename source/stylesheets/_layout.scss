@@ -76,6 +76,11 @@ nav.affix {
   z-index:10;
 }
 
+// Dropdown menu nav
+.dropdown-menu > li > a {
+  font-size: $font-size-large * 1.5;
+}
+
 // @media (max-width: 767px)  show logo
 
 @media (min-width: 777px) {
