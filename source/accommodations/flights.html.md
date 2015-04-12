@@ -1,9 +1,9 @@
 ---
 title: Flights
 images:
-  - flights-1.jpg
-  - flights-2.jpg
-  - flights-3.jpg
+  - accommodations-1.jpg
+  - accommodations-2.jpg
+  - accommodations-3.jpg
 ---
 
 # Flights

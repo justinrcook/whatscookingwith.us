@@ -1,9 +1,9 @@
 ---
 title: Getting Around
 images:
-  - getting-around-1.jpg
-  - getting-around-2.jpg
-  - getting-around-3.jpg
+  - accommodations-1.jpg
+  - accommodations-2.jpg
+  - accommodations-3.jpg
 ---
 
 # Getting Around

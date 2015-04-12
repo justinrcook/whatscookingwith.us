@@ -1,9 +1,9 @@
 ---
 title: Lodging
 images:
-  - lodging-1.jpg
-  - lodging-2.jpg
-  - lodging-3.jpg
+  - accommodations-1.jpg
+  - accommodations-2.jpg
+  - accommodations-3.jpg
 ---
 
 # Lodging
