@@ -33,6 +33,10 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.method = :sftp
+  deploy.user   = "whatscookingwithus"
+  deploy.host   = "whatscookingwith.us"
+  deploy.port   = 22
+  deploy.path   = "websites/whatscookingwith.us/www"
   deploy.build_before = true
 end
