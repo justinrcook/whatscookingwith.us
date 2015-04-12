@@ -1,40 +1,37 @@
 ---
-title: Accommodations
+title: Getting Around
 images:
   - accommodations-1.jpg
   - accommodations-2.jpg
   - accommodations-3.jpg
 ---
 
-# Accomodations
+# Getting Around
 
-![Flying from Iowa to Oregon!](/images/fly-fly-ia-to-or.png)
+###### Uber
 
-## Flights
-
-
-## Getting Around
-
-##### [Uber](https://www.uber.com/cities/portland)
-
-The taxi alternative&trade; After a [less than legal start in December '14](http://goo.gl/OqcSDg)
-Uber will be (hopefully) back up and [running April 9th](http://goo.gl/ivJ1cC)
+The taxi alternative&trade; After a
+[less than legal start in December '14](http://goo.gl/OqcSDg) Uber will be
+(hopefully) back up and [running April 9th](http://goo.gl/ivJ1cC)
 ready to pickup and deliver everyone with a super simple app.
 
-##### [Car 2 Go](http://portland.car2go.com/)
+[uber.com/cities/portland](https://www.uber.com/cities/portland){:.www}
+
+###### Car 2 Go
 
 Grab a car and go! They're everywhere...seriously. Sometimes there's two
 or more parked near our house. Downside is a $35 registration fee but after
 it's $0.41/min with a $15 hour and $85 day max. One of the nice things though
 is you can park it and walk away, don't have to pay for parking either.
 Although it may be gone by the time you go back to it and you'll have to
-find another car (unles you don't end the trip).
+find another car (unless you don't end the trip).
 
-If you're thinking about going this option setup an account before making the trip
-since there's some setup in getting a members card and something something.
+If you're thinking about going this option setup an account before making the
+trip since there's some setup in getting a members card and something something.
 
+[portland.car2go.com](http://portland.car2go.com/){:.www}
 
-##### Taxi
+###### Taxi
 
 Good 'ol taxis. Love them...hate them. Most people strongly dislike them
 with complaints of being slow but people like to complain too.
@@ -45,11 +42,11 @@ with complaints of being slow but people like to complain too.
 * [Radio Cab](http://www.radiocab.net/)
 
 
-##### Rent a Car
+###### Rent a Car
 
 Everyone's pretty familiar with this, don't need to explain.
 
-##### [Trimet](http://trimet.org/)
+###### Trimet
 
 Public transportation via trains &amp; buses is pretty widespread going just about
 anywhere you could want to go. We've heard good things and bad things, mostly
@@ -61,20 +58,12 @@ to get you where you want to go. There's also an app
 , [iOS](https://itunes.apple.com/us/app/trimet-tickets/id687943985?mt=8&uo=4"))
 where you can plan a trip, buy passes and see where the hell your bus is.
 
-##### [Zipcar](http://www.zipcar.com/portland/)
+[trimet.org](http://trimet.org/){:.www}
 
-Feed me zipcar information!!
+###### Zipcar
 
-## Lodging
+While not as popular as Car 2 Go still a good option and the bonus of having
+a real car over a Smart card. Rates are around from $7.75/hr and $74/day and
+there's a $25 application fee but also a refundable 30 day trial, just saying...
 
-There is not a centralized space we recommend staying, as the locations of the
-ceremony and reception are different. ([Here is a map](http://goo.gl/PO3PHi)
-of our home, the ceremony and reception locations for reference.) You can call
-around and find something that best suites your trip wish list, but why not try
-something more... Portland!?
-
-##### [AirBnb](https://www.airbnb.com/)
-
-Rent a room, a floor or a whole house for the duration of your stay. Depending
-on the size of your group, renting an Airbnb place can be more cost efficient
-than a hotel.
+[zipcar.com/portland](http://www.zipcar.com/portland/){:.www}

@@ -22,3 +22,6 @@ h1, h2, h3 { font-size: 48px; }
 h4         { font-size: 35px; }
 h5         { font-size: 26px; }
 h6         { font-size: 24px; }
+
+// Spacing
+h4, h5, h6 { margin-top: $line-height-computed; }

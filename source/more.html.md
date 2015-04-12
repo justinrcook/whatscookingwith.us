@@ -67,6 +67,11 @@ whenever you pass by and the line isn’t outside the door.
 
 [Columbia River Gorge](https://goo.gl/maps/yVjbY){:.location}
 
-words words words
+Multnomah Falls, part of the Columbia River Gorge, is a MUST-SEE and only a
+short drive outside the city. It's a year round waterfall, gorgeous 365 days
+a year. Walk up the short trail onto the Benson Bridge for the perfect, misty
+view, and you'll be standing at the division of the upper (542') and lower
+(69') falls. If you're feeling exceptionally youthful, trek up the 11 rocky
+switch backs to the top, and gaze over the 611 foot drop.
 
 [oregon.com](http://www.oregon.com/attractions/multnomah_falls){:.www}
