@@ -28,6 +28,12 @@ images:
     = text_field_tag :guest, class: "form-control input-lg",
       placeholder: "Your partner in wedding crime"
 
+  .form-inline
+    .form-group
+      %label{ for: :mark_me_down_for } Mark me down for
+      = number_field_tag :mark_me_down_for, class: "form-control input-lg",
+        placeholder: "...", max: 4
+
   .radio.has-error
     %label
       = radio_button_tag :coming, value: "yes"
