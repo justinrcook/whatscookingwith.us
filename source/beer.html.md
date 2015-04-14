@@ -25,18 +25,23 @@ Portland's "House of Sour", large sour and blending programs.
 * [Ex Novo](http://exnovobrew.com/)
 * [Gigantic](http://giganticbrewing.com/homepage/) - Best bottle artwork in
 Portland; also the beer is really good.
-* [The Commons](http://www.commonsbrewery.com/)
+* [The Commons](http://www.commonsbrewery.com/) - Great farmhouse style beers
+and just opened a larger brewpub.
 * [Hair of the Dog](http://www.hairofthedog.com/)
 * [Hopworks](http://hopworksbeer.com/)
 * [Laurelwood](http://www.laurelwoodbrewpub.com/)
-* [Lompoc](http://www.lompocbrewing.com/) - Brewed a 100 IPA's over the last three years
+* [Lompoc](http://www.lompocbrewing.com/) - Brewed a 100 IPA's over the last
+three years and have multiple pubs around town.
 * [Migration](http://migrationbrewing.com/)
-* [Occidental](http://occidentalbrewing.com/) - Solid German style beers
+* [Occidental](http://occidentalbrewing.com/) - Solid German style beers.
 * [Stormbreaker](http://www.stormbreakerbrewing.com/home.html)
 * [Upright](http://www.uprightbrewing.com/)
 
 ## Larger Breweries
 
+* [10 Barrel](http://www.10barrel.com/) - Even though they were bought out
+by AB last year they've just opened up a new brewpub downtown with some
+pretty good reviews.
 * [Bridgeport](http://www.bridgeportbrew.com/)
 * [Deschutes](http://www.deschutesbrewery.com/locations/portland) - Production
 brewery located in Bend, their Portland brewpub develops their own experimental
@@ -53,7 +58,7 @@ left to brew whatever they want.
 * [Bushwacker](http://www.bushwhackercider.com/)
 * [Reverand Nat's](http://reverendnatshardcider.com/) - Probably the best cider
 in town, also regular at [@PDXBottleShare](https://twitter.com/pdxbottleshare)
-* [Hi-Wheel Wine & Mead](http://www.hiwheelwines.com/)
+* [Hi-Wheel Wine & Mead](http://www.hiwheelwines.com/) 
 
 ## Bars/Bottle Shops
 
