@@ -11,7 +11,7 @@ images:
 There is not a centralized space we recommend staying, as the locations of the
 ceremony and reception are different. ([Here is a map](http://goo.gl/PO3PHi)
 of our home, the ceremony and reception locations for reference.) You can call
-around and find something that best suites your trip wish list, but why not try
+around and find something that best suits your trip wish list, but why not try
 something more... Portland!? This is just a little research, based only on
 Internet facts.
 
