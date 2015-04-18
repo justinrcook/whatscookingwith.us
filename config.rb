@@ -13,6 +13,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  set :file_watcher_ignore, [ /^gulpfile.js$/ ]
 end
 
 set :css_dir, 'stylesheets'
@@ -23,7 +24,6 @@ set :relative_links, true
 
 # Build-specific configuration
 configure :build do
-  activate :minify_css
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
