@@ -21,6 +21,12 @@ set :images_dir, 'images'
 set :fonts_dir,  'fonts'
 set :relative_links, true
 
+# Google Analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-46222806-1'
+  ga.minify = true
+end
+
 # Build-specific configuration
 configure :build do
   activate :minify_css
