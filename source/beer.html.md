@@ -58,7 +58,8 @@ left to brew whatever they want.
 * [Bushwacker](http://www.bushwhackercider.com/)
 * [Reverand Nat's](http://reverendnatshardcider.com/) - Probably the best cider
 in town, also regular at [@PDXBottleShare](https://twitter.com/pdxbottleshare)
-* [Hi-Wheel Wine & Mead](http://www.hiwheelwines.com/) 
+* [Hi-Wheel Wine & Mead](http://www.hiwheelwines.com/)
+* [Portland Cider Company](http://portlandcider.com/)
 
 ## Bars/Bottle Shops
 
