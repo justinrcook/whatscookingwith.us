@@ -45,7 +45,7 @@ When we stay in, she likes watching Investigation Discovery (&lt;whisper&gt; INV
 among other favorite crime TV shows. Sunday is reserved for Snapped (marathons),
 as well as sweets and (Post)secrets!
 
-Merchant! <yelled> is the momma to the cutest dachshund in the world.
+Merchant!  &lt;yelled&gt; is the momma to the cutest dachshund in the world.
 He’s named after a typeface (font), Caslon. Him and Frank are, well,
 still adjusting to one another...
 
