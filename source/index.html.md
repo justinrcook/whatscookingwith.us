@@ -1,5 +1,4 @@
 ---
-title: What's Cooking with Us
 images:
   - index-1.jpg
   - index-2.jpg
