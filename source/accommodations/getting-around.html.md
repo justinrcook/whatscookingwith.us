@@ -11,11 +11,17 @@ images:
 ###### Uber
 
 The taxi alternative&trade; After a
-[less than legal start in December '14](http://goo.gl/OqcSDg) Uber will be
-(hopefully) back up and [running April 9th](http://goo.gl/ivJ1cC)
-ready to pickup and deliver everyone with a super simple app.
+[less than legal start in December '14](http://goo.gl/OqcSDg) Uber is
+back up and ready to pickup.
 
 [uber.com/cities/portland](https://www.uber.com/cities/portland){:.www}
+
+###### Lyft
+
+With Uber's approval in the city along came Lyft with their
+[pink mustaches](http://goo.gl/yIU08T) for your rideshare dollars.
+
+[lyft.com/cities/portland](https://www.lyft.com/cities/portland){:.www}
 
 ###### Car 2 Go
 
