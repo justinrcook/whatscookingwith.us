@@ -47,7 +47,7 @@ run their Peace Corps inspired Georgian cart, serving food from the country of
 Georgia. Elements of Eastern European and Middle Eastern cuisines result in
 fresh, flavorful dishes.
 
-[kargigogo.com](kargigogo.com){:.www}
+[kargigogo.com](http://kargigogo.com/){:.www}
 
 ###### Salt & Straw
 
