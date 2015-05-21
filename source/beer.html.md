@@ -8,7 +8,7 @@ images :
 
 # Beer!
 
-Not an exhastive list but tried to pick my favorites, here's a
+Not an exhaustive list but tried to pick my favorites, here's a
 [list](http://www.portlandbeer.org/breweries) and a
 [map](http://www.portlandbeer.org/breweries/map) of each brewery in town.
 
