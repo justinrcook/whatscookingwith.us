@@ -69,5 +69,6 @@ in town, also regular at [@PDXBottleShare](https://twitter.com/pdxbottleshare)
 * [Civic Taproom](http://thecivictaproom.com/)
 * [Green Dragon](http://pdxgreendragon.com/)
 * [Imperial Bottle Shop](http://imperialbottleshop.com/)
+* [Rock-n-Roo](https://www.facebook.com/pages/Rock-N-Roo/516971935084746) - St. John's first bottleshop
 * [Tin Bucket](https://www.facebook.com/pages/Tin-Bucket/475638412490835)
 * [Untapped](http://untappedpdx.com/)
