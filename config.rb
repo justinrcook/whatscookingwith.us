@@ -32,6 +32,12 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Google Analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-46222806-1'
+  ga.minify = true
+end
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
