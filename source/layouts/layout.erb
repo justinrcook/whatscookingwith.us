@@ -1,20 +1,39 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="IE=edge" http_equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="author" content="Designed by Valerie Merchant. Developed by Justin Cook.">
+    <meta name="description" content="Website for our upcoming party October 24th in Waterloo">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <!-- Use title if it"s in the page YAML frontmatter -->
+    <title>
+      <%= "#{current_page.data.title} - " if current_page.data.title %>
+      What"s Cooking with Us
+    </title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <%= stylesheet_link_tag "site" %>
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+
+    <div class="container">
+
+      <div class="content">
+        <%= yield %>
+      </div><!--/.content -->
+
+    </div><!--/.container -->
+
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" %>
+    <![endif]-->
+    <!--[if (gte IE 9) | (!IE)]><!-->
+      <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" %>
+    <!--<![endif]-->
+
+    <%= javascript_include_tag "all" %>
+    <%= google_analytics_universal_tag %>
   </body>
 </html>
