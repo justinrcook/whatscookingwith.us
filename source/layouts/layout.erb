@@ -19,12 +19,10 @@
   <body class="<%= page_classes %>">
 
     <div class="container">
-
-      <div class="content">
-        <%= yield %>
-      </div><!--/.content -->
-
+      <%= yield %>
     </div><!--/.container -->
+
+    <%= partial "footer" %>
 
     <!--[if lt IE 9]>
       <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" %>
