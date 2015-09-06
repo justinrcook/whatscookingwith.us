@@ -9,7 +9,13 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     atomic (1.1.99)
+    autoprefixer-rails (6.0.0)
+      execjs
+      json
     backports (3.6.6)
+    bootstrap-sass (3.3.5.1)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.3.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     compass-import-once (1.0.5)
@@ -104,6 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3)
   middleman-cli
   middleman-core
   middleman-livereload
