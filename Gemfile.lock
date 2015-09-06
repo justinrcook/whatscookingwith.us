@@ -30,6 +30,8 @@ GEM
     fastimage (1.6.8)
       addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
+    haml (4.0.7)
+      tilt
     hamster (1.0.0)
       atomic (~> 1.1)
     hike (1.2.3)
@@ -111,6 +113,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3)
+  haml
   middleman-cli
   middleman-core
   middleman-livereload
