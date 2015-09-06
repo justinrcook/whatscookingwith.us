@@ -1,0 +1,18 @@
+//== Colors
+
+$party-orange: 						#f9be27;
+$party-grey-base: 				#7f7f7f;
+$party-pink: 							#f86c74;
+$party-teal: 							#8dd0ca;
+$party-grey-light:				#b2b2b2;
+
+//== Scaffolding
+
+//** Global text color on `<body>`.
+$text-color:            	$party-grey-base !default;
+
+//== Typography
+
+$font-family-sans-serif: 	"PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-base:         	16px !default;
+$headings-color:          $party-pink !default;
