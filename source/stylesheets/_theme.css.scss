@@ -1,0 +1,23 @@
+// Site theme
+
+nav ul {
+	@extend .list-inline;
+
+	li {
+		margin-right: 20px;
+	}
+
+	a {
+		color: $party-grey-dark;
+		text-transform: uppercase;
+	}
+}
+
+hr {
+	color: $party-grey-medium;
+}
+
+.carousel img {
+	@extend .img-responsive;
+	min-width: 100%;
+}
