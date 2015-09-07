@@ -1,7 +1,19 @@
 #we-did
-	%h2 We Did
+  / Carousel
+  / ==================================================
+  #carousel.carousel.slide{ data: { ride: "carousel" } }
+    .carousel-inner
+      - 1.upto(11).each do |img|
+        .item{ class: ( "active" if img.eql?(1) ) }
+          = image_tag "carousel/#{img}.jpg", alt: ""
 
-	%p
-		We shared our vows and united forever on the most beautiful and sunny
-		Friday afternoon under the cathedral arches of the St Johns Bridge. It was
-		intimate and perfect.
+    = link_to "#carousel", class: "left carousel-control", data: { slide: "prev" } do
+      %span.glyphicon.glyphicon-chevron-left
+    = link_to "#carousel", class: "right carousel-control", data: { slide: "next" } do
+      %span.glyphicon.glyphicon-chevron-right
+
+.container
+  %p
+    We shared our vows and united forever on the most beautiful and sunny
+    Friday afternoon under the cathedral arches of the St Johns Bridge. It was
+    intimate and perfect.
