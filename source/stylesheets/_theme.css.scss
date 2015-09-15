@@ -27,3 +27,34 @@ hr {
 		bottom: inherit;
 	}
 }
+
+.invite {
+	@extend .col-md-6;
+	@extend .col-md-offset-3;
+
+	// Taken from bootstrap's .panel
+  margin-bottom: $line-height-computed;
+  background-color: $panel-bg;
+  border: 1px solid $party-grey-medium;
+  border-radius: $panel-border-radius;
+  @include box-shadow(0 1px 1px rgba(0,0,0,.05));
+
+	h3 {
+		margin: 40px 0;
+		text-align: center;
+	}
+
+	ul {
+		@extend .list-unstyled;
+
+		li {
+			font-size: 21pt;
+
+			&.time, &.date {
+				border-bottom: 2px solid $party-grey-medium;
+			}
+		}
+	}
+
+
+}
