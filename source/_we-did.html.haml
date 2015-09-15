@@ -1,16 +1,10 @@
 #we-did
   / Carousel
   / ==================================================
-  #carousel.carousel.slide{ data: { ride: "carousel" } }
-    .carousel-inner
-      - 1.upto(11).each do |img|
-        .item{ class: ( "active" if img.eql?(1) ) }
-          = image_tag "carousel/#{img}.jpg", alt: ""
-
-    = link_to "#carousel", class: "left carousel-control", data: { slide: "prev" } do
-      %span.glyphicon.glyphicon-chevron-left
-    = link_to "#carousel", class: "right carousel-control", data: { slide: "next" } do
-      %span.glyphicon.glyphicon-chevron-right
+  .carousel.slide
+    - 1.upto(11).each do |img|
+      .item{ class: ( "active" if img.eql?(1) ) }
+        = image_tag "carousel/#{img}.jpg", alt: ""
 
 .container
   %p
