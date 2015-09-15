@@ -18,10 +18,6 @@ hr {
 }
 
 .carousel {
-	// Remove padding from the sides so the images go to the edge of the screen
-	margin-left: -5px;
-	margin-right: -5px;
-
 	img {
 		@extend .img-responsive;
 		padding: 5px;
