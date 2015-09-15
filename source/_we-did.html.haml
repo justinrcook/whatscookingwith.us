@@ -1,7 +1,7 @@
 #we-did
   / Carousel
   / ==================================================
-  .carousel.slide
+  .carousel
     - 1.upto(11).each do |img|
       .item{ class: ( "active" if img.eql?(1) ) }
         = image_tag "carousel/#{img}.jpg", alt: ""
