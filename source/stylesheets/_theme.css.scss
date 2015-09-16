@@ -1,70 +1,68 @@
 // Site theme
 
 nav ul {
-	@extend .list-inline;
+  @extend .list-inline;
 
-	li {
-		margin-right: 20px;
-	}
+  li {
+    margin-right: 20px;
+  }
 
-	a {
-		color: $party-grey-dark;
-		text-transform: uppercase;
-	}
+  a {
+    color: $party-grey-dark;
+    text-transform: uppercase;
+  }
 }
 
 hr {
-	color: $party-grey-medium;
+  color: $party-grey-medium;
 }
 
 .carousel {
-	img {
-		@extend .img-responsive;
-		padding: 5px;
-	}
+  img {
+    @extend .img-responsive;
+    padding: 5px;
+  }
 
-	.slick-dots {
-		bottom: inherit;
-	}
+  .slick-dots {
+    bottom: inherit;
+  }
 }
 
 .invite {
-	@extend .col-md-6;
-	@extend .col-md-offset-3;
+  @extend .col-md-6;
+  @extend .col-md-offset-3;
 
-	// Taken from bootstrap's .panel
+  // Taken from bootstrap's .panel
   margin-bottom: $line-height-computed;
   background-color: $panel-bg;
   border: 1px solid $party-grey-medium;
   border-radius: $panel-border-radius;
   @include box-shadow(0 1px 1px rgba(0,0,0,.05));
 
-	h3 {
-		margin: 40px 0;
-		text-align: center;
-	}
+  h3 {
+    margin: 40px 0;
+    text-align: center;
+  }
 
-	ul {
-		@extend .list-unstyled;
+  ul {
+    @extend .list-unstyled;
 
-		li {
-			font-size: 21pt;
+    li {
+      font-size: 21pt;
 
-			// Added some padding and set a larger font size 
-			i {
-				margin-right: 10px;
-				font-size: 120%;
-			}
+      // Added some padding and set a larger font size
+      i {
+        margin-right: 10px;
+        font-size: 120%;
+      }
 
-			.ion-android-calendar	{ color: $party-orange; }
-			.ion-android-time			{ color: $party-pink; }
-			.ion-android-pin			{ color: $party-teal; }
+      .ion-android-calendar	{ color: $party-orange; }
+      .ion-android-time			{ color: $party-pink; }
+      .ion-android-pin			{ color: $party-teal; }
 
-			&.time, &.date {
-				border-bottom: 2px solid $party-grey-medium;
-			}
-		}
-	}
-
-
-}
+      &.time, &.date {
+        border-bottom: 2px solid $party-grey-medium;
+      }
+    }
+  }
+} //.invite
