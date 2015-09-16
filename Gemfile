@@ -11,6 +11,10 @@ gem 'middleman-livereload'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'haml'
 
+source 'https://rails-assets.org' do
+	gem 'rails-assets-ionicons'
+end
+
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 
