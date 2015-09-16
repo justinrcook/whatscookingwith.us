@@ -6,18 +6,27 @@
 		party with you on Saturday the 24th.
 
 	.invite
-		.inner
-			%h3= image_tag 'i-do-bbq.png', alt: 'I Do BBQ'
-			%ul
-				%li.date
-					%i.icon.ion-android-calendar
-					Saturday, October 24th
-				%li.time
-					%i.icon.ion-android-time
-					5 pm until 9 pm
-				%li.address
-					%i.icon.ion-android-pin
-					%address
-						Waterloo Boat House
-						%br
-						707 Park Rd // Waterloo, IA 50703
+		%h3= image_tag 'i-do-bbq.png', alt: 'I Do BBQ'
+
+		.row
+			.date
+				%i.icon.ion-android-calendar
+			.text
+				Saturday, October 24th
+		%hr
+		.row
+			.time
+				%i.icon.ion-android-time
+			.text
+				5 pm until 9 pm
+		%hr
+		.row
+			.address
+				%i.icon.ion-android-pin
+			.text
+				%address
+					Waterloo Boat House
+					%br
+					707 Park Rd
+					%br
+					Waterloo, IA 50703

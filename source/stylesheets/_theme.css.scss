@@ -44,27 +44,33 @@ hr {
     text-align: center;
   }
 
-  ul {
-    @extend .list-unstyled;
+  .row {
+    .date,
+    .time,
+    .address {
+      @extend .col-md-offset-2;
+      @extend .col-sm-1;
 
-    li {
-      font-size: 21pt;
-
-      // Added some padding and set a larger font size
       i {
         margin-right: 10px;
-        font-size: 120%;
+        font-size: 200%;
       }
 
       .ion-android-calendar	{ color: $party-orange; }
       .ion-android-time			{ color: $party-pink; }
       .ion-android-pin			{ color: $party-teal; }
-
-      &.time, &.date {
-        border-bottom: 2px solid $party-grey-medium;
-      }
     }
+    .text {
+      @extend .col-sm-9;
+      font-size: 21pt;
+    }
+  }//.row
+
+  hr {
+    color: $party-grey-dark;
+    width: 70%;
   }
+
 } //.invite
 
 
