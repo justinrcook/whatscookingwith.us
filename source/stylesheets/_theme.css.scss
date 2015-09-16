@@ -73,4 +73,23 @@ form {
 	label {
 		font-weight: normal;
 	}
+
+  input,
+  textarea {
+    border-radius: 0 !important;
+  }
+
+  button.btn-rsvp {
+    background-color: $party-orange;
+    color: #fff;
+    border-radius: 0 !important;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: #fff;
+      background-color: darken($party-orange, 10%);
+    }
+
+  }
 }

@@ -1,2 +1,33 @@
 #will-you.container
-	%h2 Will You?
+  %h2 Will you join us?
+
+  = form_tag "#", method: :post do
+    .row
+      .col-sm-9
+        .form-group
+        %ul.list-inline
+          %li
+            %label
+              = radio_button_tag :coming, value: "yes"
+              I wouldn’t miss it!
+          %li
+            %label
+              = radio_button_tag :coming, value: "maybe"
+              Eh, it’s not like you flew across the country or something.
+          %li
+            %label
+              = radio_button_tag :coming, value: "no"
+              We'd totally LOVE to, it’s just&hellip;
+
+        .form-group
+          %label.sr-only{ for: :excuse } Excuse
+          %textarea.form-control{ name: "names", rows: 5,
+            placeholder: "Here is where you tell us what’s more important than we are. What’s the kiddo got going on, you say?"}
+
+    .form-group.row
+      .col-sm-4
+        %label{ for: :names } Your Name/s Please
+        = text_field_tag :names, class: "form-control"
+
+    .form-group
+      %button.btn.btn-lg.btn-rsvp{ type: "submit" } Submit RSVP
