@@ -50,6 +50,10 @@ hr {
 		li {
 			font-size: 21pt;
 
+			.ion-android-calendar	{ color: $party-orange; }
+			.ion-android-time			{ color: $party-pink; }
+			.ion-android-pin			{ color: $party-teal; }
+
 			&.time, &.date {
 				border-bottom: 2px solid $party-grey-medium;
 			}
