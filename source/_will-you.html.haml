@@ -5,19 +5,19 @@
     .row
       .col-sm-9
         .form-group
-        %ul.list-inline
-          %li
-            %label
-              = radio_button_tag :coming, value: "yes"
-              I wouldn’t miss it!
-          %li
-            %label
-              = radio_button_tag :coming, value: "maybe"
-              Eh, it’s not like you flew across the country or something.
-          %li
-            %label
-              = radio_button_tag :coming, value: "no"
-              We'd totally LOVE to, it’s just&hellip;
+          %ul.list-inline
+            %li
+              %label
+                = radio_button_tag :coming, value: "yes"
+                I wouldn’t miss it!
+            %li
+              %label
+                = radio_button_tag :coming, value: "maybe"
+                Eh, it’s not like you flew across the country or something.
+            %li
+              %label
+                = radio_button_tag :coming, value: "no"
+                We'd totally LOVE to, it’s just&hellip;
 
         .form-group
           %label.sr-only{ for: :excuse } Excuse
