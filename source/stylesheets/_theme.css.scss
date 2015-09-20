@@ -86,6 +86,10 @@ form {
 		font-weight: normal;
 	}
 
+  .has-error {
+    color: $brand-danger;
+  }
+
   input,
   textarea {
     border-radius: 0 !important;
