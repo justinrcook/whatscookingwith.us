@@ -50,19 +50,15 @@ set :js_dir,      'javascripts'
 set :images_dir,  'images'
 set :fonts_dir,   'fonts'
 
-# Development Settings
-configure :development do
-  activate :google_analytics do |ga|
-    ga.tracking_id = false
-  end
+# Google Analtyics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-46222806-1'
+  ga.development = false
+  ga.minify = true
 end
 
 # Build-specific configuration
 configure :build do
-  activate :google_analytics do |ga|
-    ga.tracking_id = 'UA-46222806-1'
-  end
-
   # For example, change the Compass output style for deployment
   activate :minify_css
 
