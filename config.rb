@@ -65,10 +65,6 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
-  # Use assets cdn to host images, javascript and stylesheets
-  activate :asset_host
-  set :asset_host, '//assets.whatscookingwith.us/'
-
   # Enable cache buster
   # activate :asset_hash
 
